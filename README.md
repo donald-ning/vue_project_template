@@ -41,18 +41,26 @@ src
 
 ```
 
-## eslint
+## eslint配置
 
 `eslint主要提供代码校验`
 
-## prettier
+## prettier配置
 
 `prettier主要提供代码格式化`
 
-## styleLint
+## styleLint配置
 
 `styleLine主要提供css代码校验`
 
-## husky
+## husky配置
 
 `husky主要提供git hook, 用于在git提交前进行格式化等操作`
+
+## commitLint配置
+
+```sh
+pnpm add @commitlint/config-conventional @commitlint/cli -D
+```
+
+添加配置文件, 新建commitlint.config.cjs
