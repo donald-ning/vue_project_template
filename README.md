@@ -64,3 +64,7 @@ pnpm add @commitlint/config-conventional @commitlint/cli -D
 ```
 
 添加配置文件, 新建commitlint.config.cjs
+
+## 强制使用pnpm 包管理工具
+
+`在根目录下创建scripts/preinstall.js`
